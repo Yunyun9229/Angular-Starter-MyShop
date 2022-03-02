@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './products/productList.component';
 import { CovertToSpacesPipe } from './shared/covertToSpaces.pipe';
+import { StarComponent } from './shared/star.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
     ProductListComponent, 
-    CovertToSpacesPipe
+    CovertToSpacesPipe,
+    StarComponent
    
   ],
   imports: [

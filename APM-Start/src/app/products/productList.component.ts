@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { IProduct } from './product';
+
 @Component({
   selector: 'pm-products',
   templateUrl: './productList.component.html', 
@@ -69,6 +70,7 @@ export class ProductListComponent implements OnInit {
   }
 
   ngOnInit(){
-    this._listFilter= 'cart'
+    // this._listFilter= ''
+    console.log('testing')
   }
 }
